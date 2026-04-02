@@ -5,10 +5,11 @@ A responsive transaction dashboard built with **Next.js (App Router)**, **TypeSc
 
 This project focuses on **state management, async data handling, and clear UI communication** rather than visual perfection.
 
-<!-- --- -->
-<!-- ## 🌐 Live Demo -->
+---
 
-<!-- https://your-app.vercel.app -->
+## 🌐 Live Demo
+
+https://taxstreem-internship-test.vercel.app/
 
 ---
 
