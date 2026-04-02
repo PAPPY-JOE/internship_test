@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 import { FaArrowRotateRight } from "react-icons/fa6";
 import { PiSmileySadBold } from "react-icons/pi";
 

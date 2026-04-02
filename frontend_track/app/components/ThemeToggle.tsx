@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { GoSun } from 'react-icons/go'
 import { HiOutlineMoon } from 'react-icons/hi'
-import { Tooltip, TooltipContent, TooltipTrigger } from '../../components/ui/tooltip'
+import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip'
 
 const ThemeToggle = () => {
   const [mounted, setMounted] = useState(false)
@@ -13,7 +13,9 @@ const ThemeToggle = () => {
   const handleLightMode = () => setTheme("light")
   const handleDarkMode = () => setTheme("dark")
 
-  useEffect(() => setMounted(true), [])
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   if (!mounted) return 
 

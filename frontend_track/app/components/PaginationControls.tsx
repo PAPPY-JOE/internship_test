@@ -6,7 +6,7 @@ import {
   PaginationItem,
   PaginationPrevious,
   PaginationNext,
-} from "@/components/ui/pagination";
+} from "@/app/components/ui/pagination";
 
 type Props = {
   page: number;

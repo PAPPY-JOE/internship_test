@@ -8,7 +8,7 @@ import { MdLogout } from 'react-icons/md'
 import { RxDashboard } from 'react-icons/rx'
 import { VscSettings } from 'react-icons/vsc' 
 import ThemeToggle from './ThemeToggle'
-import { Tooltip, TooltipContent, TooltipTrigger } from '../../components/ui/tooltip'
+import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip'
 
 const nav_items = [
     {
@@ -33,10 +33,7 @@ const nav_items = [
     },
 ] 
 
-const SideBar = () => {
-  const [navItemState, setNavItemState] = useState(nav_items)
-  const [navActive, setNavActive] = useState(true)
-
+const SideBar = () => { 
   return ( 
     <div 
       className={"mr-[90px] tranistion-all duration-300 ease"}>
@@ -60,7 +57,7 @@ const SideBar = () => {
         {/* Nav Icons */}
         <div className='scroll-container max-h-[calc(100vh-265px)] px-4 pb-4'>
           <div className="flex flex-col">
-            {navItemState.map((item, index) => (
+            {nav_items.map((item, index) => (
               <div key={index}>
                 <Tooltip>
                   <TooltipTrigger>

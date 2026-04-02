@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Exo_2, Geist } from 'next/font/google';
 import { cn } from "@/lib/utils";
-import { TooltipProvider } from "../components/ui/tooltip";
+import { TooltipProvider } from "./components/ui/tooltip";
 import SideBar from "./components/SideBar";
 import { ThemeProvider } from "next-themes";
 
